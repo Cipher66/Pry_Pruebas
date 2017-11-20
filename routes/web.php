@@ -17,3 +17,10 @@ Route::get('/', function () {
 Route::get('/form', function(){
     return view('formGET');
 });
+Route::get('/formPOST', function (){
+    return view('formPOST');
+});
+
+Route::post('/verDatos', function (){
+    return view('verDatos');
+});
