@@ -28,3 +28,7 @@ Route::post('/verDatos', function (){
     return($nombre.$apellido);
 });
 
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
