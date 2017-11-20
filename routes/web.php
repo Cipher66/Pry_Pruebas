@@ -22,5 +22,9 @@ Route::get('/formPOST', function (){
 });
 
 Route::post('/verDatos', function (){
-    return view('verDatos');
+    $nombre=request()->get('Nombre');
+    $apellido=request()->get('Apellido');
+
+    return($nombre.$apellido);
 });
+

@@ -3,6 +3,6 @@
         <title>Ver datos de formulario</title>
     </head>
     <body>
-        <p>{{ $_REQUEST['nombre'] }} {{ $_REQUEST['apellido'] }}</p>
+        <p>{{ $_REQUEST['Nombre'] }} {{ $_REQUEST['Apellido'] }}</p>
     </body>
 </html>

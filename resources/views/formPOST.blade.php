@@ -5,8 +5,8 @@
     <body>
         <form method="POST" action="verDatos">
             <input type="hidden" name="_token" value="{{ csrf_token() }}"><br>
-            Nombre: <input type="text" name="nombre">
-            Apellido: <input type="text" name="apellido">
+            Nombre: <input type="text" name="Nombre">
+            Apellido: <input type="text" name="Apellido">
             <input type="submit" value="Enviar">
         </form>
     </body>
